@@ -1,0 +1,57 @@
+textarea {
+    resize: none;
+}
+
+.prophetical {
+    width:25%;
+    display: block;
+    right: 0;
+    position: absolute;
+}
+
+.dropdown {
+    z-index: 10000;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    background-color: yellow;
+    text-align: center;
+    width: 30px;
+    height: 60px;
+}
+
+.drop_content {
+    display: none;
+}
+
+.show {
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border: 3px solid black
+}
+
+.send__msg {
+    padding: 10px;
+}
+
+.message {
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.message > p {
+    font-size: 16px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: silver;
+    padding: 10px;
+}
+
+.message > nav {
+    font-size: 19px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 2px;
+}

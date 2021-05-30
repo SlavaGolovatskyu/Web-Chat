@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/chat.css" type="text/css">
+    <title>
+         Работа с сокетами на python
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="show_chat()" class="dropdown"></button>
+      <div class="prophetical">
+        <div id="MyProphetical" class="drop_content">
+          <p class="online">Онлайн на сайте: 0</p>
+          <br>
+          <div class="message"></div>
+          <br>
+          <textarea placeholder="Для отправки нажмите Enter" class="send__msg"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="/static/js/main.js" defer></script>
+  <script src="/static/js/settings_chat.js" defer></script>
+</html>
